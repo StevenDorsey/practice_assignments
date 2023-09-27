@@ -161,3 +161,6 @@ See the Style Guidelines document on the class website. In particular:
 • Named constants: use these for numeric literals, and use uppercase and
 underscores in their names. 
 Hint: there are several in this program.
+
+## HTML Assignments
+
