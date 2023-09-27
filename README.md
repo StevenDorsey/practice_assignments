@@ -130,13 +130,13 @@ Sample output:
 > The amount due for the month is $62.94                          
 > Amount saved if you were on Plan B: $2.95                       
 > ___________________________________________________________________
-> | Voice Plans:                                                    
-> | A. The 450 minute plan                                           
-> | B. The 900 minute plan                                           
-> | C. The unlimited plan                                            
-> | Enter which voice plan the customer subscribes to: D             
-> | Enter the total number of minutes used during the month: 303     
-> | The voice plan entered is invalid.                               
+> Voice Plans:                                                    
+> A. The 450 minute plan                                           
+> B. The 900 minute plan                                           
+> C. The unlimited plan                                            
+> Enter which voice plan the customer subscribes to: D             
+> Enter the total number of minutes used during the month: 303     
+> The voice plan entered is invalid.                               
 > ___________________________________________________________________
 > Voice Plans:                                                     
 > A. The 450 minute plan                                           
