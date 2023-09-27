@@ -1,7 +1,9 @@
 # **Practice Assignments**
 Each folder in this repo is an old programming assignment, used to challenge what I remember about C++ programming.
 
-## CPP_Assn1 Programming Assignment:
+## C++ Programs
+
+### CPP_Assn1 Programming Assignment:
 Problem:
 Write a C++ program that will output information about you to the computer screen.
 Make the computer format the output like this (with a blank line between each item):
@@ -21,7 +23,7 @@ Replace the <…> with your own information. Here’s the output from my program
 Note: It's ok if the last line is long and wraps onto the next line in your output.
 
 
-## CPP_Assn2 Programming Assignment
+### CPP_Assn2 Programming Assignment
 **Problem:** Your friends are trying to lose weight and build muscle and want to calculate some
 statistics about their daily food intake. Write a C++ program that will calculate these
 statistics.
@@ -71,7 +73,7 @@ See the Style Guidelines document on the class website. In particular:
 • Named constants: use these for numeric literals, and use uppercase and underscores in their names.
 • Source code lines should be less than 80 characters in length, and the program statements should be indented appropriately.
 
-## CPP_Assn3 Programming Assignment
+### CPP_Assn3 Programming Assignment
 **Problem:**
 Your have been asked by a mobile phone service provider to write a program that will
 calculate the amount of the voice portion of a customer’s monthly bill. Write a C++
