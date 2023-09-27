@@ -85,14 +85,12 @@ Package C: Unlimited minutes for $69.99.
 
 **Input:**
 Use the following menu to prompt the user for the customer’s voice plan:
-> ______________________________________________________
-> | Voice Plans:                                       |
-> | A. The 450 minute plan                             |
-> | B. The 900 minute plan                             |
-> | C. The unlimited plan                              |
-> | Enter which voice plan the customer subscribes to: |
-> ______________________________________________________
-Then ask the user to input the number of voice minutes used in the month.
+> Voice Plans:                                       
+> A. The 450 minute plan                             
+> B. The 900 minute plan                             
+> C. The unlimited plan                              
+> Enter which voice plan the customer subscribes to: 
+> Then ask the user to input the number of voice minutes used in the month.
 For both inputs, use an if statement to perform input validation. The user should select
 only A, B, or C from the menu, and the minutes should be between 0 and 44640
 (inclusive). If their input is invalid, output an error message and exit the program (do
@@ -115,38 +113,38 @@ savings are 0 or negative for a given plan, no message should be printed.
 
 Sample output:
 > ___________________________________________________________________
-> | Voice Plans:                                                    | 
-> | A. The 450 minute plan                                          | 
-> | B. The 900 minute plan                                          | 
-> | C. The unlimited plan                                           | 
-> | Enter which voice plan the customer subscribes to: B            | 
-> | Enter the total number of minutes used during the month: 875    | 
-> | The amount due for the month is $59.99                          | 
+> Voice Plans:                                                    
+> A. The 450 minute plan                                          
+> B. The 900 minute plan                                          
+> C. The unlimited plan                                           
+> Enter which voice plan the customer subscribes to: B            
+> Enter the total number of minutes used during the month: 875    
+> The amount due for the month is $59.99                          
 > ___________________________________________________________________
-> | Voice Plans:                                                    |
-> | A. The 450 minute plan                                          |
-> | B. The 900 minute plan                                          |
-> | C. The unlimited plan                                           |
-> | Enter which voice plan the customer subscribes to: A            |
-> | Enter the total number of minutes used during the month: 501    |
-> | The amount due for the month is $62.94                          |
-> | Amount saved if you were on Plan B: $2.95                       |
+> Voice Plans:                                                    
+> A. The 450 minute plan                                          
+> B. The 900 minute plan                                          
+> C. The unlimited plan                                           
+> Enter which voice plan the customer subscribes to: A            
+> Enter the total number of minutes used during the month: 501    
+> The amount due for the month is $62.94                          
+> Amount saved if you were on Plan B: $2.95                       
 > ___________________________________________________________________
-> | Voice Plans:                                                    | 
-> | A. The 450 minute plan                                          | 
-> | B. The 900 minute plan                                          | 
-> | C. The unlimited plan                                           | 
-> | Enter which voice plan the customer subscribes to: D            | 
-> | Enter the total number of minutes used during the month: 303    | 
-> | The voice plan entered is invalid.                              | 
+> | Voice Plans:                                                    
+> | A. The 450 minute plan                                           
+> | B. The 900 minute plan                                           
+> | C. The unlimited plan                                            
+> | Enter which voice plan the customer subscribes to: D             
+> | Enter the total number of minutes used during the month: 303     
+> | The voice plan entered is invalid.                               
 > ___________________________________________________________________
-> | Voice Plans:                                                    | 
-> | A. The 450 minute plan                                          | 
-> | B. The 900 minute plan                                          | 
-> | C. The unlimited plan                                           |        
-> | Enter which voice plan the customer subscribes to: A            | 
-> | Enter the total number of minutes used during the month: 44641  | 
-> | That is not a valid amount for the minutes.                     | 
+> Voice Plans:                                                     
+> A. The 450 minute plan                                           
+> B. The 900 minute plan                                           
+> C. The unlimited plan                                                   
+> Enter which voice plan the customer subscribes to: A             
+> Enter the total number of minutes used during the month: 44641   
+> That is not a valid amount for the minutes.                     
 > ___________________________________________________________________
 
 **Additional Requirements:**
