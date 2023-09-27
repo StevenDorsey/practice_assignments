@@ -1,4 +1,5 @@
 # practice_assignments
+Each folder in this repo is an old programming assignment, used to challenge what I remember about C++ programming.
 
 ## CPP_Assn1 Programming Assignment:
 Problem:
