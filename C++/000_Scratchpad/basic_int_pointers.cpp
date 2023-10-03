@@ -13,13 +13,15 @@ void multi_line_reverse(int*, int);
 void single_line_reverse(int*, int);
 
 /***********************************************************************************
-    Name:        Main
-    Purpose: (1) Constructs an integer array of 8 int values
-             (2) Prints the values of the constructed integer array in linear and 
-                 reverse order, passing the integer array by reference to each.
-    Input:       No user input given
-    Output:  (1) Returns a 0 if no error occurs
-             (2) Returns a nonzero int if error occurs
+    Name:       Main
+    Purpose: 
+            (1) Constructs an integer array of 8 int values
+            (2) Prints the values of the constructed integer array in linear and 
+                reverse order, passing the integer array by reference to each.
+    Input:      No user input given
+    Output:  
+            (1) Returns a 0 if no error occurs
+            (2) Returns a nonzero int if error occurs
 ***********************************************************************************/
 int main()
 {
@@ -41,13 +43,14 @@ int main()
 }
 
 /***********************************************************************************
-    Name:        Multi-Line Print Function
-    Purpose: (1) Prints the elements in linear order of an integer array in linear 
-                 order.
-             (2) Tests a print function that uses multiple lines to print the 
-                 elements in an integer array.
-    Input:       Integer Array (passed by Reference)
-    Output:      None
+    Name:       Multi-Line Print Function
+    Purpose: 
+            (1) Prints the elements in linear order of an integer array in linear 
+                order.
+            (2) Tests a print function that uses multiple lines to print the 
+                elements in an integer array.
+    Input:      Integer Array (passed by Reference)
+    Output:     None
 ***********************************************************************************/
 void multi_line_print(int* arr)
 {
@@ -72,13 +75,14 @@ void multi_line_print(int* arr)
 }
 
 /***********************************************************************************
-    Name: Single-Line Print Function
-    Purpose: (1) Prints the elements in linear order of an integer array in linear 
-                 order.
-             (2) Tests a print function that uses a single line to print the 
-                 elements in an integer array. 
-    Input:       Integer Array (passed by Reference)
-    Output:      None
+    Name:       Single-Line Print Function
+    Purpose: 
+            (1) Prints the elements in linear order of an integer array in linear 
+                order.
+            (2) Tests a print function that uses a single line to print the 
+                elements in an integer array. 
+    Input:      Integer Array (passed by Reference)
+    Output:     None
 ***********************************************************************************/
 void single_line_print(int* arr)
 {
@@ -96,14 +100,15 @@ void single_line_print(int* arr)
 }
 
 /***********************************************************************************
-    Name: Multi-Line Reverse Print Function
-    Purpose: (1) Prints the elements in reverse order of an integer array in linear 
-                 order.
-             (2) Tests a print function that uses multiple lines to print the 
-                 elements in an integer array. 
+    Name:       Multi-Line Reverse Print Function
+    Purpose: 
+            (1) Prints the elements in reverse order of an integer array in linear 
+                order.
+            (2) Tests a print function that uses multiple lines to print the 
+                elements in an integer array. 
     
-    Input:       Integer Array (passed by Reference)
-    Output:      None
+    Input:      Integer Array (passed by Reference)
+    Output:     None
 ***********************************************************************************/
 void multi_line_reverse(int* arr, int sze)
 {
@@ -133,14 +138,15 @@ void multi_line_reverse(int* arr, int sze)
 }
 
 /***********************************************************************************
-    Name: Multi-Line Print Function
-    Purpose: (1) Prints the elements in reverse order of an integer array in linear 
-                 order.
-             (2) Tests a print function that uses a single line to print the 
-                 elements in an integer array. 
+    Name:       Multi-Line Print Function
+    Purpose: 
+            (1) Prints the elements in reverse order of an integer array in linear 
+                order.
+            (2) Tests a print function that uses a single line to print the 
+                elements in an integer array. 
     
-    Input:       Integer Array (passed by Reference)
-    Output:      None
+    Input:      Integer Array (passed by Reference)
+    Output:     None
 ***********************************************************************************/
 void single_line_reverse(int* arr, int sze)
 {
